@@ -39,14 +39,18 @@ const Footer = () => {
           <ul>
             {footerLinks.slice(0, 4).map((item) => (
               <li key={item.name} className="  opacity-70 ">
-                <span className="hover-underline-animation">{item.name}</span>
+                <span className="hover-underline-animation cursor-pointer">
+                  {item.name}
+                </span>
               </li>
             ))}
           </ul>
           <ul>
             {footerLinks.slice(4, 8).map((item) => (
               <li key={item.name} className="  opacity-70 ">
-                <span className="hover-underline-animation">{item.name}</span>
+                <span className="hover-underline-animation cursor-pointer">
+                  {item.name}
+                </span>
               </li>
             ))}
           </ul>
