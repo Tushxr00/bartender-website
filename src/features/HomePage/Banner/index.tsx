@@ -64,7 +64,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="my-12">
-        <hr />
+        <hr className="border-t-2" />
         <div className="flex gap-5 justify-around  px-6">
           {BrandImages.map((item) => (
             <div
@@ -87,7 +87,7 @@ const Banner = () => {
             </div>
           ))}
         </div>
-        <hr />
+        <hr className="border-t-2" />
       </div>
     </>
   );
